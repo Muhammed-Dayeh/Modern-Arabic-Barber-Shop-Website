@@ -1,15 +1,15 @@
 'use client'
 
-import { useState } from 'react'
-import Header from '@/components/Header'
-import HomePage from '@/components/HomePage'
-import ServicesPage from '@/components/ServicesPage'
-import BookingPage from '@/components/BookingPage'
-import GalleryPage from '@/components/GalleryPage'
-import TestimonialsPage from '@/components/TestimonialsPage'
-import AboutPage from '@/components/AboutPage'
-import ContactPage from '@/components/ContactPage'
-import Footer from '@/components/Footer'
+import { useState } from "react";
+import Header from "../components/Header";
+import HomePage from "../components/HomePage";
+import ServicesPage from "../components/ServicesPage";
+import BookingPage from "../components/BookingPage";
+import GalleryPage from "../components/GalleryPage";
+import TestimonialsPage from "../components/TestimonialsPage";
+import AboutPage from "../components/AboutPage";
+import ContactPage from "../components/ContactPage";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState('home')
